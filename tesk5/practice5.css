@@ -1,0 +1,143 @@
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 14px;
+}
+h3{
+    color: #777;
+}
+h5{
+    color: #aaa;
+}
+.title{
+    background-color: black;
+    padding: 10px;
+    
+}
+.title img{
+    width: 100px;
+    margin-left: 20px;
+}
+.导航{
+    list-style: none;
+    float: right;
+}
+.导航 a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.导航 ul li{
+    display: inline-block;
+}
+.article1{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+#首进{
+    text-indent: 2em;
+}
+.article2{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+.article2 ul li{
+    list-style: none;
+}
+.article3{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+.article3 ul li{
+    display: inline-block;
+}
+.picture{
+    border: solid black 1px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.article4{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+.article4_table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.article4_table table tr td{
+    border: solid #666 1px;
+}
+#tr1{
+    background-color: black;
+    color: white;
+}
+#tr2{
+    background-color: rgb(200, 200, 200);
+}
+.article5{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px black;
+    width: 400px;
+}
+.article5 h2{
+    font-size: 20px;
+    border-left: solid rgb(200, 200, 200) 3px;
+    padding: 10px;
+}
+.info{
+    margin-left: 0;
+}
+.info dt{
+    float: left;
+    clear: left;
+    width: 130px;
+    text-align: right;
+    margin-right: 10px;
+}
+#info_side1{
+    margin-top: 10px;
+}
+#info_side2{
+    margin-top: 10px;
+}
+.enter{
+    background-color: blue;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.版权{
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    padding: 15px;
+    padding-top: 10px;
+}
+.clear{
+    clear:both; 
+}
+.main{
+    margin-right: 460px;
+}
+.side{
+    float: right;
+}
