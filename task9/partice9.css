@@ -1,0 +1,369 @@
+body {
+  width: 1280px;
+  height: 1266px;
+  margin: auto;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 56px;
+  background-color: #2189bf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.header .logo {
+  margin-left: 50px;
+}
+.header .searchbar {
+  margin-right: 100px;
+}
+.header .searchbar input {
+  background: url(image/search.png) no-repeat 15px 5px;
+  outline: none;
+  width: 260px;
+  height: 27px;
+  margin-right: 20px;
+  padding: 0 20px 0 40px;
+  border: none;
+  background-color: #FFF;
+  border-radius: 50px;
+}
+.header .searchbar a {
+  background: url(image/login.png) no-repeat 0 2px;
+  padding-left: 20px;
+  font: normal normal normal 12px "SunHei";
+  color: #FFF;
+}
+.body {
+  display: flex;
+}
+.body .secondary {
+  width: 260px;
+  height: 1200px;
+  background-color: #2a2e3d;
+  display: flex;
+  flex-flow: column wrap;
+}
+.body .secondary .personal {
+  width: 100%;
+  height: 150px;
+}
+.body .secondary .personal .personal_1 {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.body .secondary .personal .personal_1 span {
+  font: normal normal normal 16px "黑体";
+  color: #FFF;
+  margin: 0 35px 0 30px;
+}
+.body .secondary .personal .personal_1 div {
+  width: 57px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid #FFF;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .secondary .personal .personal_1 div div {
+  width: 47px;
+  height: 47px;
+  background-color: #bababe;
+  border: none;
+  border-radius: 50px;
+}
+.body .secondary .personal .personal_2 {
+  width: 100%;
+  height: 50px;
+}
+.body .secondary .personal .personal_2 p {
+  display: inline-block;
+  color: #4d586a;
+  margin: 0 ;
+  padding: 0;
+  font: normal normal normal 12px "黑体";
+}
+.body .secondary .personal .personal_2 p:nth-of-type(1) {
+  margin: 0 0 0 60px;
+  border-right: 2px solid #2f3343;
+  padding-right: 30px;
+}
+.body .secondary .personal .personal_2 p:nth-of-type(2) {
+  margin-left: 30px;
+}
+.body .secondary .personal .personal_2 p span {
+  font: normal normal normal 16px/18px "宋体";
+}
+.body .secondary .info {
+  width: 100%;
+  height: 190px;
+  color: #4d586a;
+  font: normal normal normal 12px/250% "黑体";
+}
+.body .secondary .info ul span {
+  background: url(image/task_1_7_1_0000s_0001s_0008__编组_.png) no-repeat;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.body .secondary .info ul span:hover {
+  color: #FFF;
+  background: url(image/task_1_7_1_0000s_0001s_0006__编组_.png) no-repeat;
+}
+.body .secondary .info ul .info_list {
+  background: url(image/task_1_7_1_0000s_0001s_0013__路径_.png) no-repeat 0 10px;
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+}
+.body .secondary .info ul .info_list:hover {
+  color: #FFF;
+}
+.body .secondary .info ul .info_list:hover i {
+  background: url(image/task_1_7_1_0000s_0001s_0010__编组_.png) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+.body .secondary .info ul .info_list i {
+  background: url(image/task_1_7_1_0000s_0001s_0008__编组_.png) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+.body .secondary .info ul ul {
+  position: relative;
+  left: 20px;
+}
+.body .secondary .info ul ul li {
+  cursor: pointer;
+}
+.body .secondary .info ul ul li:hover {
+  color: #FFF;
+}
+.body .secondary .info ul ul li:hover i {
+  background: url(image/task_1_7_1_0000s_0001s_0007__编组_.png) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+.body .secondary .info ul ul li i {
+  background: url(image/task_1_7_1_0000s_0001s_0000__编组_.png) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+.body .secondary .other {
+  font: normal normal normal 12px/400% "黑体";
+  color: #4d586a;
+}
+.body .secondary .other span {
+  cursor: pointer;
+}
+.body .secondary .other span:hover {
+  color: #FFF;
+}
+.body .secondary .other span:nth-of-type(1) {
+  background: url(image/task_1_7_1_0000s_0001s_0005__编组_.png) no-repeat;
+  padding-left: 20px;
+}
+.body .secondary .other span:nth-of-type(2) {
+  background: url(image/task_1_7_1_0000s_0001s_0004__编组_.png) no-repeat;
+  padding-left: 20px;
+}
+.body .secondary .other span:nth-of-type(3) {
+  background: url(image/task_1_7_1_0000s_0001s_0005__编组_.png) no-repeat;
+  padding-left: 20px;
+}
+.body .secondary .other span:nth-of-type(4) {
+  background: url(image/task_1_7_1_0000s_0001s_0005__编组_.png) no-repeat;
+  padding-left: 20px;
+}
+.body .secondary .other span:nth-of-type(5) {
+  background: url(image/task_1_7_1_0000s_0001s_0003__编组_.png) no-repeat;
+  padding-left: 20px;
+}
+.body .main {
+  width: 1020px;
+  height: 1200px;
+  background-color: #eeeeed;
+}
+.body .main .block1 {
+  width: 100%;
+  height: 30px;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.body .main .block1 ul {
+  padding-left: 30px;
+}
+.body .main .block1 ul li {
+  display: inline-block;
+  color: #999;
+}
+.body .main .block1 ul li a {
+  color: #999;
+}
+.body .main .block1 ul li a:hover {
+  color: blue;
+}
+.body .main .block2 {
+  width: 890px;
+  height: 85px;
+  background-color: #FFF;
+  margin: 0 0 20px 65px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  color: #999;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px 40px 10px 40px;
+}
+.body .main .block2 div {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.body .main .block2 div span {
+  font: normal normal normal 12px "SimHei";
+}
+.body .main .block2 div span select {
+  -webkit-appearance: none;
+  background: url(image/task_1_7_1_0000s_0001s_0009__路径_1.png) no-repeat 95% 8px;
+  outline: none;
+  height: 25px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-color: #ddd;
+  cursor: pointer;
+}
+.body .main .block2 div:nth-of-type(1) {
+  width: 20%;
+}
+.body .main .block2 div:nth-of-type(1) span select {
+  width: 70px;
+}
+.body .main .block2 div:nth-of-type(2) {
+  width: 25%;
+  background: url(image/task_1_7_1_0000s_0003s_0000__路径_ + _路径_ + _路径_ + _路径_ + _路径_ + _路径_.png) no-repeat 78% 9px;
+}
+.body .main .block2 div:nth-of-type(2) a {
+  position: relative;
+  left: 15px;
+  bottom: 8px;
+  font: normal normal normal 12px "SimHei";
+  color: #FFF;
+}
+.body .main .block2 div:nth-of-type(2) span select {
+  width: 100px;
+}
+.body .main .block2 div:nth-of-type(3) {
+  width: 40%;
+}
+.body .main .block2 div:nth-of-type(3) span:nth-of-type(1) select {
+  width: 120px;
+  margin-right: 15px;
+}
+.body .main .block2 div:nth-of-type(3) span:nth-of-type(2) select {
+  width: 70px;
+  background-position-x: 91%;
+}
+.body .main .block2 div:nth-of-type(3) span:nth-of-type(3) select {
+  width: 70px;
+  margin-right: 15px;
+}
+.body .main .block2 div:nth-of-type(3) span:nth-of-type(4) select {
+  width: 120px;
+}
+.body .main .block2 div:nth-of-type(4) {
+  align-items: center;
+}
+.body .main .block2 div:nth-of-type(4) input {
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  background-color: #388ac1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.body .main .block2 div:nth-of-type(4) input:active {
+  background-color: red;
+}
+.body .main .block3 {
+  width: 890px;
+  height: 65px;
+  margin-left: 65px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.body .main .block3 input {
+  width: 30px;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: url(image/task_1_7_1_0000s_0002s_0002__编组_.png) no-repeat 10px 24px;
+  background-color: #FFF;
+  cursor: pointer;
+}
+.body .main .block3 input:nth-of-type(2) {
+  background: url(image/task_1_7_1_0000s_0002s_0000__编组_.png) no-repeat 10px 24px;
+  background-color: #FFF;
+}
+.body .main .block3 input:active {
+  background-color: #4d586a;
+}
+.body .main .block3 p {
+  width: 110px;
+  height: 100%;
+  background-color: #FFF;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font: normal normal normal 12px "微软雅黑";
+  box-sizing: border-box;
+  border-top: 4px solid transparent;
+  cursor: pointer;
+}
+.body .main .block3 p:hover {
+  border-color: #4f90cc;
+}
+.body .main .block3 p span {
+  margin-top: 5px;
+}
+.body .main .block3 p span .money {
+  font: bolder normal normal 14px "SimHei";
+  color: #999;
+}
+.body .main .block3 p span .price {
+  font-size: 21px;
+  color: #ec6500;
+}
+.body .main .block3 a {
+  width: 110px;
+  height: 100%;
+  background: url(image/task_1_7_1_0000s_0002s_0003__编组_.png) no-repeat 20px 17px;
+  background-color: #FFF;
+  color: #4d586a;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
