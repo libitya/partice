@@ -340,6 +340,7 @@ a{
                 background: url(image/task_1_7_1_0000s_0002s_0002__编组_.png) no-repeat 10px 24px;
                 background-color: #FFF;
                 cursor: pointer;
+                box-shadow: -1px -1px 1px #999;
                 &:nth-of-type(2){
                     background: url(image/task_1_7_1_0000s_0002s_0000__编组_.png) no-repeat 10px 24px;
                     background-color: #FFF;
@@ -359,6 +360,7 @@ a{
                 font: normal normal normal 12px "微软雅黑";
                 box-sizing: border-box;
                 border-top: 4px solid transparent;
+                box-shadow: -1px -1px 1px #999;
                 &:hover{
                     border-color: #4f90cc;
                 }
@@ -386,6 +388,79 @@ a{
                 justify-content: flex-end;
                 align-items: center;
                 padding-right: 20px;
+                box-shadow: -1px -1px 1px #999;
+            }
+        }
+        .block4{
+            margin: 25px 0 20px 65px;
+            width: 890px;
+            p{
+                width: 100%;
+                margin: 0;
+            }
+            div{
+                width: 100%;
+                height: 70px;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                margin-top: 5px;
+                div{
+                    width: 165px;
+                    height: 100%;
+                    background-color: #FFF;
+                    box-shadow: 1px -1px 1px #999;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 20px 0 10px;
+                    margin: 0;
+                    &:nth-of-type(1){
+                        border-left: 5px solid #43b29e;
+                        div{
+                            background-color: #43b29e;
+                            box-shadow: none;
+                            border: none;
+                        }
+                    }
+                    &:nth-of-type(2){
+                        border-left: 5px solid #388ac1;
+                        div{
+                            background-color: #388ac1;
+                            box-shadow: none;
+                            border: none;
+                        }
+                    }
+                    &:nth-of-type(3){
+                        border-left: 5px solid #d04a36;
+                        div{
+                            background-color: #d04a36;
+                            box-shadow: none;
+                            border: none;
+                        }
+                    }
+                    &:nth-of-type(4){
+                        border-left: 5px solid #e2cd46;
+                        div{
+                            background-color: #e2cd46;
+                            box-shadow: none;
+                            border: none;
+                        }
+                    }
+                    div{
+                        width: 50px;
+                        height: 50px;
+                    }
+                    p{
+                        font:  normal normal normal 12px/250% "SimHei";
+                        span{
+                            font-size: 10px;
+                            color: #999;
+                        }
+                    }
+                    
+                }
             }
         }
     }
