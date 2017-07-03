@@ -1,3 +1,7 @@
+.box {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
 body {
   width: 1280px;
   height: 1266px;
@@ -223,8 +227,8 @@ a {
   height: 85px;
   background-color: #FFF;
   margin: 0 0 20px 65px;
+  border: 1px solid #ccc;
   box-sizing: border-box;
-  border: 1px solid #ddd;
   color: #999;
   display: flex;
   flex-flow: row wrap;
@@ -440,4 +444,236 @@ a {
 .body .main .block4 div div p span {
   font-size: 10px;
   color: #999;
+}
+.body .main .block5,
+.body .main .block6 {
+  width: 890px;
+  height: 360px;
+  margin: 0 0 10px 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.body .main .block5 .block5_1,
+.body .main .block6 .block6_2 {
+  width: 530px;
+  height: 360px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.body .main .block5 .block5_1 p {
+  font: normal normal normal 12px "SimHei";
+  padding-left: 20px;
+  margin: 13px 0;
+  color: #999;
+}
+.body .main .block5 .block5_1 .block5_1_outer {
+  width: 100%;
+  height: 320px;
+  padding: 0 20px 25px 20px;
+  background-color: #FFF;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.body .main .block5 .block5_1 .block5_1_outer input {
+  margin: 0;
+  width: 80px;
+  height: 25px;
+  position: relative;
+  top: 10px;
+  z-index: 10;
+  opacity: 0;
+  cursor: pointer;
+  outline: none;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab1:checked ~ ul #tab1 {
+  border-color: #ccc;
+  border-bottom-color: #FFF;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab1:checked ~ .block5_1_inner .table1 {
+  opacity: 1;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab2:checked ~ ul #tab2 {
+  border-color: #ccc;
+  border-bottom-color: #FFF;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab2:checked ~ .block5_1_inner .table2 {
+  opacity: 1;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab3:checked ~ ul #tab3 {
+  border-color: #ccc;
+  border-bottom-color: #FFF;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab3:checked ~ .block5_1_inner .table3 {
+  opacity: 1;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab4:checked ~ ul #tab4 {
+  border-color: #ccc;
+  border-bottom-color: #FFF;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab4:checked ~ .block5_1_inner .table4 {
+  opacity: 1;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab5:checked ~ ul #tab5 {
+  border-color: #ccc;
+  border-bottom-color: #FFF;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab5:checked ~ .block5_1_inner .table5 {
+  opacity: 1;
+}
+.body .main .block5 .block5_1 .block5_1_outer ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 20px;
+  z-index: 7;
+}
+.body .main .block5 .block5_1 .block5_1_outer ul li {
+  width: 78px;
+  height: 23px;
+  display: inline-block;
+  background-color: #ededf0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  outline: none;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner {
+  width: 490px;
+  height: 253px;
+  border: 1px solid #ccc;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  bottom: 21px;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table1 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table1 table {
+  border-collapse: collapse;
+  display: table-row-group;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table1 table tr {
+  display: table-row;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table1 table tr td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  font: normal normal normal 12px/28px "SimHei";
+  width: 100px;
+  text-align: center;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table2 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  position: relative;
+  bottom: 100%;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table2 table {
+  border-collapse: collapse;
+  display: table-row-group;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table2 table tr {
+  display: table-row;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table2 table tr td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  font: normal normal normal 12px/28px "SimHei";
+  width: 100px;
+  text-align: center;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table3 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  position: relative;
+  bottom: 200%;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table3 table {
+  border-collapse: collapse;
+  display: table-row-group;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table3 table tr {
+  display: table-row;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table3 table tr td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  font: normal normal normal 12px/28px "SimHei";
+  width: 100px;
+  text-align: center;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table4 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  position: relative;
+  bottom: 300%;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table4 table {
+  border-collapse: collapse;
+  display: table-row-group;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table4 table tr {
+  display: table-row;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table4 table tr td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  font: normal normal normal 12px/28px "SimHei";
+  width: 100px;
+  text-align: center;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table5 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  position: relative;
+  bottom: 400%;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table5 table {
+  border-collapse: collapse;
+  display: table-row-group;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table5 table tr {
+  display: table-row;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table5 table tr td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  font: normal normal normal 12px/28px "SimHei";
+  width: 100px;
+  text-align: center;
+}
+.body .main .block5 .block5_2,
+.body .main .block6 .block6_1 {
+  width: 350px;
+  height: 360px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
