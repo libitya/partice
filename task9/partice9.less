@@ -615,8 +615,102 @@ a{
             .block5_2{
                 width: 350px;
                 height: 360px;
+                overflow: hidden;
                 .box;
                 border-radius: 10px;
+                p{
+                    &:extend(.body .main .block5 .block5_1 p);
+                }
+                .project_message{
+                    width: 100%;
+                    height: 320px;
+                    background-color: #FFF;
+                    ul{
+                        li{
+                            padding-left: 10px;
+                            span{
+                                color: #c3c2c2;
+                                font: normal normal normal 12px "微软雅黑";
+                            }
+                            p{
+                                font: normal normal normal 12px "微软雅黑";
+                                color: #535353;
+                                margin: 3px 0;
+                                padding: 0;
+                            }
+                            &:nth-of-type(1){
+                                padding: 10px 0 0 10px;
+                            }
+                            &:nth-of-type(2){
+                                padding: 0;
+                                border-bottom: 1px solid #c3c2c2;
+                                display: flex;
+                                div{
+                                    
+                                    &:nth-of-type(1){
+                                        width: 85px;
+                                        padding-left: 10px;
+                                        border-top: 1px solid #c3c2c2;
+                                        border-right: 1px solid #c3c2c2;
+                                    }
+                                    &:nth-of-type(2){
+                                        width:174px;
+                                        border-top: 1px solid #c3c2c2;
+                                        padding-left: 10px;
+                                    }
+                                }
+                            }
+                            &:nth-of-type(3){
+                                height: 147px;
+                                width: 270px;
+                                border-bottom: 1px solid #c3c2c2;
+                            }
+                            &:nth-of-type(4){
+                                padding: 5px 0;
+                                display: flex;
+                                justify-content: space-between;
+                                width: 280px;
+                                .project_enter{
+                                    cursor: pointer;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    input{
+                                        margin-right: 10px;
+                                        -webkit-appearance: none;
+                                        width: 14px;
+                                        height: 14px;
+                                        
+                                        outline: none;
+                                        cursor: pointer;
+                                        
+                                        background-color: #eeeeed;
+                                        &:checked{
+                                            background: url(image/gou.png) no-repeat center;
+                                            background-color: #eeeeed;
+                                        }
+                                    }
+                                    span{
+                                        user-select: none;
+                                    }
+                                }
+                                input[type="submit"]{
+                                    width: 50px;
+                                    height: 25px;
+                                    background-color: #388ac1;
+                                    border: none;
+                                    color: #FFF;
+                                    border-radius: 5px;
+                                    outline: none;
+                                    cursor: pointer;
+                                    &:active{
+                                        background-color: red;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
         .block6{

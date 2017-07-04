@@ -462,7 +462,8 @@ a {
   border-radius: 10px;
   overflow: hidden;
 }
-.body .main .block5 .block5_1 p {
+.body .main .block5 .block5_1 p,
+.body .main .block5 .block5_2 p {
   font: normal normal normal 12px "SimHei";
   padding-left: 20px;
   margin: 13px 0;
@@ -673,7 +674,91 @@ a {
 .body .main .block6 .block6_1 {
   width: 350px;
   height: 360px;
+  overflow: hidden;
   border: 1px solid #ccc;
   box-sizing: border-box;
   border-radius: 10px;
+}
+.body .main .block5 .block5_2 .project_message {
+  width: 100%;
+  height: 320px;
+  background-color: #FFF;
+}
+.body .main .block5 .block5_2 .project_message ul li {
+  padding-left: 10px;
+}
+.body .main .block5 .block5_2 .project_message ul li span {
+  color: #c3c2c2;
+  font: normal normal normal 12px "微软雅黑";
+}
+.body .main .block5 .block5_2 .project_message ul li p {
+  font: normal normal normal 12px "微软雅黑";
+  color: #535353;
+  margin: 3px 0;
+  padding: 0;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(1) {
+  padding: 10px 0 0 10px;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(2) {
+  padding: 0;
+  border-bottom: 1px solid #c3c2c2;
+  display: flex;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(2) div:nth-of-type(1) {
+  width: 85px;
+  padding-left: 10px;
+  border-top: 1px solid #c3c2c2;
+  border-right: 1px solid #c3c2c2;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(2) div:nth-of-type(2) {
+  width: 174px;
+  border-top: 1px solid #c3c2c2;
+  padding-left: 10px;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(3) {
+  height: 147px;
+  width: 270px;
+  border-bottom: 1px solid #c3c2c2;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) .project_enter {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) .project_enter input {
+  margin-right: 10px;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  outline: none;
+  cursor: pointer;
+  background-color: #eeeeed;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) .project_enter input:checked {
+  background: url(image/gou.png) no-repeat center;
+  background-color: #eeeeed;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) .project_enter span {
+  user-select: none;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) input[type="submit"] {
+  width: 50px;
+  height: 25px;
+  background-color: #388ac1;
+  border: none;
+  color: #FFF;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) input[type="submit"]:active {
+  background-color: red;
 }
