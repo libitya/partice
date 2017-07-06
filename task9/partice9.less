@@ -479,7 +479,7 @@ a{
                 .box;
                 border-radius: 10px;
                 overflow: hidden;
-                p{
+                h3{
                     font: normal normal normal 12px "SimHei";
                     padding-left: 20px;
                     margin: 13px 0;
@@ -618,8 +618,8 @@ a{
                 overflow: hidden;
                 .box;
                 border-radius: 10px;
-                p{
-                    &:extend(.body .main .block5 .block5_1 p);
+                h3{
+                    &:extend(.body .main .block5 .block5_1 h3);
                 }
                 .project_message{
                     width: 100%;
@@ -717,9 +717,360 @@ a{
             &:extend(.body .main .block5);
             .block6_1{
                 &:extend(.body .main .block5 .block5_2);
+                h3{
+                    &:extend(.body .main .block5 .block5_1 h3);
+                }
+                .calendar{
+                    width: 100%;
+                    height: 320px;
+                    background-color: #FFF;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    align-items: center;
+                    .year{
+                        width: 300px;
+                        display: flex;
+                        padding: 10px 0;
+                        justify-content: space-between;
+                        div{
+                            border: 1px solid #c3c2c2;
+                            i{
+                                background: url(image/task_1_7_1_0000s_0001s_0009__路径_1.png) no-repeat center;
+                                width: 19px;
+                                height: 20px;
+                                float: right;
+                                border-left: 1px solid #f5f6f7;
+                            }
+                            p{
+                                margin: 0;
+                                font: normal normal normal 12px "SimHei";
+                                position: relative;
+                                top: 4px;
+                                text-align: center;
+                            }
+                            &:nth-of-type(1){
+                                p{
+                                    width: 62px;
+                                    height: 20px;
+                                }
+                            }
+                            &:nth-of-type(2){
+                                p{
+                                    width: 84px;
+                                    height: 20px;
+                                }
+                            }
+                            &:nth-of-type(3){
+                                p{
+                                    width: 74px;
+                                    height: 20px;
+                                }
+                            }
+                            
+                        }
+                        a{
+                            width: 62px;
+                            height: 17px;
+                            padding-top: 3px;
+                            color: black;
+                            font: normal normal normal 12px "SimHei";
+                            border: 1px solid #c3c2c2;
+                            text-align: center;
+                        }
+                    }
+                    .week{
+                        width: 310px;
+                        height: 28px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        justify-content: space-around;
+                        align-items: center;
+                        border-top: 1px solid #4f90cc;
+                        border-bottom: 1px solid #ccc;
+                        p{
+                            font: normal normal normal 12px "SimHei";
+                        }
+                    }
+                    .day{
+                        width: 310px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        p{
+                            margin: 0;
+                            text-align: center;
+                            font: normal normal normal 12px "SimHei";
+                            width: 42px;
+                            height: 42px;
+                            border: 1px solid transparent;
+                            display: flex;
+                            flex-flow: column wrap;
+                            justify-content: center;
+                            align-items: center;
+                            &:nth-of-type(1){
+                                margin-left: 178px;
+                                span{
+                                    color: red;
+                                }
+                            }
+                            &:nth-of-type(2){
+                                color: red;
+                                span{
+                                    color: #000;
+                                }
+                            }
+                            &:nth-of-type(3){
+                                color: red;
+                                span{
+                                    color: #000;
+                                }
+                            }
+                            &:nth-of-type(5){
+                                span{
+                                    color: red;
+                                }
+                            }
+                            &:nth-of-type(9){
+                                border-color: lightsalmon;
+                                color: red;
+                                span{
+                                    color: #000;
+                                }
+                            }
+                            &:nth-of-type(10){
+                                color: red;
+                                span{
+                                    color: #000;
+                                }
+                            }
+                            &:nth-of-type(16){
+                                color: red;
+                                span{
+                                    color: #000;
+                                }
+                            }
+                            &:nth-of-type(17){
+                                color: red;
+                                span{
+                                    color: #000;
+                                }
+                            }
+                            &:nth-of-type(23){
+                                color: red;
+                                span{
+                                    color: #000;
+                                }
+                            }
+                            &:nth-of-type(24){
+                                color: red;
+                                span{
+                                    color: #000;
+                                }
+                            }
+                            &:nth-of-type(30){
+                                color: red;
+                                span{
+                                    color: #000;
+                                }
+                            }
+                        }
+                    }
+                }
             }
             .block6_2{
                 &:extend(.body .main .block5 .block5_1);
+                h3{
+                    &:extend(.body .main .block5 .block5_1 h3);
+                }
+                .rank{
+                    width: 100%;
+                    height: 320px;
+                    background-color: #fff;
+                    border-collapse: collapse;
+                    .table6{
+                        border-collapse: collapse;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 320px;
+                        tr{
+                        &:nth-of-type(1){
+                            td{
+                                font: normal normal normal 14px "SimHei";
+                            }
+                        }
+                        &:nth-of-type(2){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 80%;
+                                            height: 100%;
+                                            background-color: orangered;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(3){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 70%;
+                                            height: 100%;
+                                            background-color: orange;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(4){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 60%;
+                                            height: 100%;
+                                            background-color: orange;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(5){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 55%;
+                                            height: 100%;
+                                            background-color: lightskyblue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(6){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 50%;
+                                            height: 100%;
+                                            background-color: lightskyblue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(7){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 45%;
+                                            height: 100%;
+                                            background-color: lightskyblue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(8){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 40%;
+                                            height: 100%;
+                                            background-color: lightskyblue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(9){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 35%;
+                                            height: 100%;
+                                            background-color: lightskyblue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(10){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 30%;
+                                            height: 100%;
+                                            background-color: lightskyblue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(11){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 25%;
+                                            height: 100%;
+                                            background-color: lightskyblue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(4){
+                            td{
+                                &:nth-of-type(3){
+                                    .rank_background{
+                                        .rank_surface{
+                                            width: 60%;
+                                            height: 100%;
+                                            background-color: lightskyblue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        td{
+                            font: normal normal normal 12px "SimHei";
+                            height: 25px;
+                            border: 1px solid#ccc;
+                            padding: 0;
+                            &:nth-of-type(1){
+                                width: 50px;
+                                text-align: center;
+                            }
+                            &:nth-of-type(2){
+                                width: 70px;
+                                text-align: center;
+                            }
+                            &:nth-of-type(3){
+                                width: 270px;
+                                padding-left: 30px;
+                                .rank_background{
+                                    background-color: #ccc;
+                                    width: 180px;
+                                    height: 4px;
+                                    float: right;
+                                    position: relative;
+                                    right: 20px;
+                                    top: 3px;
+                                }
+                            }
+                        }
+                    }
+                    }
+                }
             }
         }
     }
