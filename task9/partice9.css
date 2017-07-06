@@ -1,0 +1,1016 @@
+.box {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+body {
+  width: 1280px;
+  height: 1266px;
+  margin: auto;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 56px;
+  background-color: #2189bf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.header .logo {
+  margin-left: 50px;
+}
+.header .searchbar {
+  margin-right: 100px;
+}
+.header .searchbar input {
+  background: url(image/search.png) no-repeat 15px 5px;
+  outline: none;
+  width: 260px;
+  height: 27px;
+  margin-right: 20px;
+  padding: 0 20px 0 40px;
+  border: none;
+  background-color: #FFF;
+  border-radius: 50px;
+}
+.header .searchbar a {
+  background: url(image/login.png) no-repeat 0 2px;
+  padding-left: 20px;
+  font: normal normal normal 12px "SunHei";
+  color: #FFF;
+}
+.body {
+  display: flex;
+}
+.body .secondary {
+  width: 260px;
+  height: 1200px;
+  background-color: #2a2e3d;
+  display: flex;
+  flex-flow: column wrap;
+}
+.body .secondary .personal {
+  width: 100%;
+  height: 150px;
+}
+.body .secondary .personal .personal_1 {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.body .secondary .personal .personal_1 span {
+  font: normal normal normal 16px "黑体";
+  color: #FFF;
+  margin: 0 35px 0 30px;
+}
+.body .secondary .personal .personal_1 div {
+  width: 57px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid #FFF;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .secondary .personal .personal_1 div div {
+  width: 47px;
+  height: 47px;
+  background-color: #bababe;
+  border: none;
+  border-radius: 50px;
+}
+.body .secondary .personal .personal_2 {
+  width: 100%;
+  height: 50px;
+}
+.body .secondary .personal .personal_2 p {
+  display: inline-block;
+  color: #4d586a;
+  margin: 0 ;
+  padding: 0;
+  font: normal normal normal 12px "黑体";
+}
+.body .secondary .personal .personal_2 p:nth-of-type(1) {
+  margin: 0 0 0 60px;
+  border-right: 2px solid #2f3343;
+  padding-right: 30px;
+}
+.body .secondary .personal .personal_2 p:nth-of-type(2) {
+  margin-left: 30px;
+}
+.body .secondary .personal .personal_2 p span {
+  font: normal normal normal 16px/18px "宋体";
+}
+.body .secondary .info {
+  width: 100%;
+  height: 190px;
+  color: #4d586a;
+  font: normal normal normal 12px/250% "黑体";
+}
+.body .secondary .info ul span {
+  background: url(image/task_1_7_1_0000s_0001s_0008__编组_.png) no-repeat;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.body .secondary .info ul span:hover {
+  color: #FFF;
+  background: url(image/task_1_7_1_0000s_0001s_0006__编组_.png) no-repeat;
+}
+.body .secondary .info ul .info_list {
+  background: url(image/task_1_7_1_0000s_0001s_0013__路径_.png) no-repeat 0 10px;
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+}
+.body .secondary .info ul .info_list:hover {
+  color: #FFF;
+}
+.body .secondary .info ul .info_list:hover i {
+  background: url(image/task_1_7_1_0000s_0001s_0010__编组_.png) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+.body .secondary .info ul .info_list i {
+  background: url(image/task_1_7_1_0000s_0001s_0008__编组_.png) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+.body .secondary .info ul ul {
+  position: relative;
+  left: 20px;
+}
+.body .secondary .info ul ul li {
+  cursor: pointer;
+}
+.body .secondary .info ul ul li:hover {
+  color: #FFF;
+}
+.body .secondary .info ul ul li:hover i {
+  background: url(image/task_1_7_1_0000s_0001s_0007__编组_.png) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+.body .secondary .info ul ul li i {
+  background: url(image/task_1_7_1_0000s_0001s_0000__编组_.png) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+.body .secondary .other {
+  font: normal normal normal 12px/400% "黑体";
+  color: #4d586a;
+}
+.body .secondary .other span {
+  cursor: pointer;
+}
+.body .secondary .other span:hover {
+  color: #FFF;
+}
+.body .secondary .other span:nth-of-type(1) {
+  background: url(image/task_1_7_1_0000s_0001s_0005__编组_.png) no-repeat;
+  padding-left: 20px;
+}
+.body .secondary .other span:nth-of-type(2) {
+  background: url(image/task_1_7_1_0000s_0001s_0004__编组_.png) no-repeat;
+  padding-left: 20px;
+}
+.body .secondary .other span:nth-of-type(3) {
+  background: url(image/task_1_7_1_0000s_0001s_0005__编组_.png) no-repeat;
+  padding-left: 20px;
+}
+.body .secondary .other span:nth-of-type(4) {
+  background: url(image/task_1_7_1_0000s_0001s_0005__编组_.png) no-repeat;
+  padding-left: 20px;
+}
+.body .secondary .other span:nth-of-type(5) {
+  background: url(image/task_1_7_1_0000s_0001s_0003__编组_.png) no-repeat;
+  padding-left: 20px;
+}
+.body .main {
+  width: 1020px;
+  height: 1200px;
+  background-color: #eeeeed;
+}
+.body .main .block1 {
+  width: 100%;
+  height: 30px;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.body .main .block1 ul {
+  padding-left: 30px;
+}
+.body .main .block1 ul li {
+  display: inline-block;
+  color: #999;
+}
+.body .main .block1 ul li a {
+  color: #999;
+}
+.body .main .block1 ul li a:hover {
+  color: blue;
+}
+.body .main .block2 {
+  width: 890px;
+  height: 85px;
+  background-color: #FFF;
+  margin: 0 0 20px 65px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: #999;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px 40px 10px 40px;
+}
+.body .main .block2 div {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.body .main .block2 div span {
+  font: normal normal normal 12px "SimHei";
+}
+.body .main .block2 div span select {
+  -webkit-appearance: none;
+  background: url(image/task_1_7_1_0000s_0001s_0009__路径_1.png) no-repeat 95% 8px;
+  outline: none;
+  height: 25px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-color: #ddd;
+  cursor: pointer;
+}
+.body .main .block2 div:nth-of-type(1) {
+  width: 20%;
+}
+.body .main .block2 div:nth-of-type(1) span select {
+  width: 70px;
+}
+.body .main .block2 div:nth-of-type(2) {
+  width: 25%;
+  background: url(image/task_1_7_1_0000s_0003s_0000__路径_ + _路径_ + _路径_ + _路径_ + _路径_ + _路径_.png) no-repeat 78% 9px;
+}
+.body .main .block2 div:nth-of-type(2) a {
+  position: relative;
+  left: 15px;
+  bottom: 8px;
+  font: normal normal normal 12px "SimHei";
+  color: #FFF;
+}
+.body .main .block2 div:nth-of-type(2) span select {
+  width: 100px;
+}
+.body .main .block2 div:nth-of-type(3) {
+  width: 40%;
+}
+.body .main .block2 div:nth-of-type(3) span:nth-of-type(1) select {
+  width: 120px;
+  margin-right: 15px;
+}
+.body .main .block2 div:nth-of-type(3) span:nth-of-type(2) select {
+  width: 70px;
+  background-position-x: 91%;
+}
+.body .main .block2 div:nth-of-type(3) span:nth-of-type(3) select {
+  width: 70px;
+  margin-right: 15px;
+}
+.body .main .block2 div:nth-of-type(3) span:nth-of-type(4) select {
+  width: 120px;
+}
+.body .main .block2 div:nth-of-type(4) {
+  align-items: center;
+}
+.body .main .block2 div:nth-of-type(4) input {
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  background-color: #388ac1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.body .main .block2 div:nth-of-type(4) input:active {
+  background-color: red;
+}
+.body .main .block3 {
+  width: 890px;
+  height: 65px;
+  margin-left: 65px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.body .main .block3 input {
+  width: 30px;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: url(image/task_1_7_1_0000s_0002s_0002__编组_.png) no-repeat 10px 24px;
+  background-color: #FFF;
+  cursor: pointer;
+  box-shadow: -1px -1px 1px #999;
+}
+.body .main .block3 input:nth-of-type(2) {
+  background: url(image/task_1_7_1_0000s_0002s_0000__编组_.png) no-repeat 10px 24px;
+  background-color: #FFF;
+}
+.body .main .block3 input:active {
+  background-color: #4d586a;
+}
+.body .main .block3 p {
+  width: 110px;
+  height: 100%;
+  background-color: #FFF;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font: normal normal normal 12px "微软雅黑";
+  box-sizing: border-box;
+  border-top: 4px solid transparent;
+  box-shadow: -1px -1px 1px #999;
+  cursor: pointer;
+}
+.body .main .block3 p:hover {
+  border-color: #4f90cc;
+}
+.body .main .block3 p span {
+  margin-top: 5px;
+}
+.body .main .block3 p span .money {
+  font: bolder normal normal 14px "SimHei";
+  color: #999;
+}
+.body .main .block3 p span .price {
+  font-size: 21px;
+  color: #ec6500;
+}
+.body .main .block3 a {
+  width: 110px;
+  height: 100%;
+  background: url(image/task_1_7_1_0000s_0002s_0003__编组_.png) no-repeat 20px 17px;
+  background-color: #FFF;
+  color: #4d586a;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+  box-shadow: -1px -1px 1px #999;
+}
+.body .main .block4 {
+  margin: 25px 0 20px 65px;
+  width: 890px;
+}
+.body .main .block4 p {
+  width: 100%;
+  margin: 0;
+}
+.body .main .block4 div {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.body .main .block4 div div {
+  width: 165px;
+  height: 100%;
+  background-color: #FFF;
+  box-shadow: 1px -1px 1px #999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 10px;
+  margin: 0;
+}
+.body .main .block4 div div:nth-of-type(1) {
+  border-left: 5px solid #43b29e;
+}
+.body .main .block4 div div:nth-of-type(1) div {
+  background-color: #43b29e;
+  box-shadow: none;
+  border: none;
+}
+.body .main .block4 div div:nth-of-type(2) {
+  border-left: 5px solid #388ac1;
+}
+.body .main .block4 div div:nth-of-type(2) div {
+  background-color: #388ac1;
+  box-shadow: none;
+  border: none;
+}
+.body .main .block4 div div:nth-of-type(3) {
+  border-left: 5px solid #d04a36;
+}
+.body .main .block4 div div:nth-of-type(3) div {
+  background-color: #d04a36;
+  box-shadow: none;
+  border: none;
+}
+.body .main .block4 div div:nth-of-type(4) {
+  border-left: 5px solid #e2cd46;
+}
+.body .main .block4 div div:nth-of-type(4) div {
+  background-color: #e2cd46;
+  box-shadow: none;
+  border: none;
+}
+.body .main .block4 div div div {
+  width: 50px;
+  height: 50px;
+}
+.body .main .block4 div div p {
+  font: normal normal normal 12px/250% "SimHei";
+}
+.body .main .block4 div div p span {
+  font-size: 10px;
+  color: #999;
+}
+.body .main .block5,
+.body .main .block6 {
+  width: 890px;
+  height: 360px;
+  margin: 0 0 10px 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.body .main .block5 .block5_1,
+.body .main .block6 .block6_2 {
+  width: 530px;
+  height: 360px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.body .main .block5 .block5_1 h3,
+.body .main .block5 .block5_2 h3,
+.body .main .block6 .block6_1 h3,
+.body .main .block6 .block6_2 h3 {
+  font: normal normal normal 12px "SimHei";
+  padding-left: 20px;
+  margin: 13px 0;
+  color: #999;
+}
+.body .main .block5 .block5_1 .block5_1_outer {
+  width: 100%;
+  height: 320px;
+  padding: 0 20px 25px 20px;
+  background-color: #FFF;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.body .main .block5 .block5_1 .block5_1_outer input {
+  margin: 0;
+  width: 80px;
+  height: 25px;
+  position: relative;
+  top: 10px;
+  z-index: 10;
+  opacity: 0;
+  cursor: pointer;
+  outline: none;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab1:checked ~ ul #tab1 {
+  border-color: #ccc;
+  border-bottom-color: #FFF;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab1:checked ~ .block5_1_inner .table1 {
+  opacity: 1;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab2:checked ~ ul #tab2 {
+  border-color: #ccc;
+  border-bottom-color: #FFF;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab2:checked ~ .block5_1_inner .table2 {
+  opacity: 1;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab3:checked ~ ul #tab3 {
+  border-color: #ccc;
+  border-bottom-color: #FFF;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab3:checked ~ .block5_1_inner .table3 {
+  opacity: 1;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab4:checked ~ ul #tab4 {
+  border-color: #ccc;
+  border-bottom-color: #FFF;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab4:checked ~ .block5_1_inner .table4 {
+  opacity: 1;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab5:checked ~ ul #tab5 {
+  border-color: #ccc;
+  border-bottom-color: #FFF;
+}
+.body .main .block5 .block5_1 .block5_1_outer input#tab5:checked ~ .block5_1_inner .table5 {
+  opacity: 1;
+}
+.body .main .block5 .block5_1 .block5_1_outer ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 20px;
+  z-index: 7;
+}
+.body .main .block5 .block5_1 .block5_1_outer ul li {
+  width: 78px;
+  height: 23px;
+  display: inline-block;
+  background-color: #ededf0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  outline: none;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner {
+  width: 490px;
+  height: 253px;
+  border: 1px solid #ccc;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  bottom: 21px;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table1 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table1 table {
+  border-collapse: collapse;
+  display: table-row-group;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table1 table tr {
+  display: table-row;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table1 table tr td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  font: normal normal normal 12px/28px "SimHei";
+  width: 100px;
+  text-align: center;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table2 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  position: relative;
+  bottom: 100%;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table2 table {
+  border-collapse: collapse;
+  display: table-row-group;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table2 table tr {
+  display: table-row;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table2 table tr td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  font: normal normal normal 12px/28px "SimHei";
+  width: 100px;
+  text-align: center;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table3 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  position: relative;
+  bottom: 200%;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table3 table {
+  border-collapse: collapse;
+  display: table-row-group;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table3 table tr {
+  display: table-row;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table3 table tr td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  font: normal normal normal 12px/28px "SimHei";
+  width: 100px;
+  text-align: center;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table4 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  position: relative;
+  bottom: 300%;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table4 table {
+  border-collapse: collapse;
+  display: table-row-group;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table4 table tr {
+  display: table-row;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table4 table tr td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  font: normal normal normal 12px/28px "SimHei";
+  width: 100px;
+  text-align: center;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table5 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  position: relative;
+  bottom: 400%;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table5 table {
+  border-collapse: collapse;
+  display: table-row-group;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table5 table tr {
+  display: table-row;
+}
+.body .main .block5 .block5_1 .block5_1_outer .block5_1_inner .table5 table tr td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  font: normal normal normal 12px/28px "SimHei";
+  width: 100px;
+  text-align: center;
+}
+.body .main .block5 .block5_2,
+.body .main .block6 .block6_1 {
+  width: 350px;
+  height: 360px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.body .main .block5 .block5_2 .project_message {
+  width: 100%;
+  height: 320px;
+  background-color: #FFF;
+}
+.body .main .block5 .block5_2 .project_message ul li {
+  padding-left: 10px;
+}
+.body .main .block5 .block5_2 .project_message ul li span {
+  color: #c3c2c2;
+  font: normal normal normal 12px "微软雅黑";
+}
+.body .main .block5 .block5_2 .project_message ul li p {
+  font: normal normal normal 12px "微软雅黑";
+  color: #535353;
+  margin: 3px 0;
+  padding: 0;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(1) {
+  padding: 10px 0 0 10px;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(2) {
+  padding: 0;
+  border-bottom: 1px solid #c3c2c2;
+  display: flex;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(2) div:nth-of-type(1) {
+  width: 85px;
+  padding-left: 10px;
+  border-top: 1px solid #c3c2c2;
+  border-right: 1px solid #c3c2c2;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(2) div:nth-of-type(2) {
+  width: 174px;
+  border-top: 1px solid #c3c2c2;
+  padding-left: 10px;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(3) {
+  height: 147px;
+  width: 270px;
+  border-bottom: 1px solid #c3c2c2;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) .project_enter {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) .project_enter input {
+  margin-right: 10px;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  outline: none;
+  cursor: pointer;
+  background-color: #eeeeed;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) .project_enter input:checked {
+  background: url(image/gou.png) no-repeat center;
+  background-color: #eeeeed;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) .project_enter span {
+  user-select: none;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) input[type="submit"] {
+  width: 50px;
+  height: 25px;
+  background-color: #388ac1;
+  border: none;
+  color: #FFF;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.body .main .block5 .block5_2 .project_message ul li:nth-of-type(4) input[type="submit"]:active {
+  background-color: red;
+}
+.body .main .block6 .block6_1 .calendar {
+  width: 100%;
+  height: 320px;
+  background-color: #FFF;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.body .main .block6 .block6_1 .calendar .year {
+  width: 300px;
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+.body .main .block6 .block6_1 .calendar .year div {
+  border: 1px solid #c3c2c2;
+}
+.body .main .block6 .block6_1 .calendar .year div i {
+  background: url(image/task_1_7_1_0000s_0001s_0009__路径_1.png) no-repeat center;
+  width: 19px;
+  height: 20px;
+  float: right;
+  border-left: 1px solid #f5f6f7;
+}
+.body .main .block6 .block6_1 .calendar .year div p {
+  margin: 0;
+  font: normal normal normal 12px "SimHei";
+  position: relative;
+  top: 4px;
+  text-align: center;
+}
+.body .main .block6 .block6_1 .calendar .year div:nth-of-type(1) p {
+  width: 62px;
+  height: 20px;
+}
+.body .main .block6 .block6_1 .calendar .year div:nth-of-type(2) p {
+  width: 84px;
+  height: 20px;
+}
+.body .main .block6 .block6_1 .calendar .year div:nth-of-type(3) p {
+  width: 74px;
+  height: 20px;
+}
+.body .main .block6 .block6_1 .calendar .year a {
+  width: 62px;
+  height: 17px;
+  padding-top: 3px;
+  color: black;
+  font: normal normal normal 12px "SimHei";
+  border: 1px solid #c3c2c2;
+  text-align: center;
+}
+.body .main .block6 .block6_1 .calendar .week {
+  width: 310px;
+  height: 28px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #4f90cc;
+  border-bottom: 1px solid #ccc;
+}
+.body .main .block6 .block6_1 .calendar .week p {
+  font: normal normal normal 12px "SimHei";
+}
+.body .main .block6 .block6_1 .calendar .day {
+  width: 310px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.body .main .block6 .block6_1 .calendar .day p {
+  margin: 0 0 2px 0;
+  text-align: center;
+  font: normal normal normal 12px "SimHei";
+  width: 42px;
+  height: 42px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(1) {
+  margin-left: 178px;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(1) span {
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(2) {
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(2) span {
+  color: #000;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(3) {
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(3) span {
+  color: #000;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(5) span {
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(9) {
+  border-color: lightsalmon;
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(9) span {
+  color: #000;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(10) {
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(10) span {
+  color: #000;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(12) {
+  border-color: lightsalmon;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(16) {
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(16) span {
+  color: #000;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(17) {
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(17) span {
+  color: #000;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(19) {
+  border-color: lightsalmon;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(23) {
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(23) span {
+  color: #000;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(24) {
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(24) span {
+  color: #000;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(30) {
+  color: red;
+}
+.body .main .block6 .block6_1 .calendar .day p:nth-of-type(30) span {
+  color: #000;
+}
+.body .main .block6 .block6_2 .rank {
+  width: 100%;
+  height: 320px;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+.body .main .block6 .block6_2 .rank .table6 {
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(1) td {
+  font: normal normal normal 14px "SimHei";
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(2) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 80%;
+  height: 100%;
+  background-color: orangered;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(3) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 70%;
+  height: 100%;
+  background-color: orange;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(4) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 60%;
+  height: 100%;
+  background-color: orange;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(5) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 55%;
+  height: 100%;
+  background-color: lightskyblue;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(6) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 50%;
+  height: 100%;
+  background-color: lightskyblue;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(7) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 45%;
+  height: 100%;
+  background-color: lightskyblue;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(8) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 40%;
+  height: 100%;
+  background-color: lightskyblue;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(9) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 35%;
+  height: 100%;
+  background-color: lightskyblue;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(10) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 30%;
+  height: 100%;
+  background-color: lightskyblue;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(11) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 25%;
+  height: 100%;
+  background-color: lightskyblue;
+}
+.body .main .block6 .block6_2 .rank .table6 tr:nth-of-type(4) td:nth-of-type(3) .rank_background .rank_surface {
+  width: 60%;
+  height: 100%;
+  background-color: lightskyblue;
+}
+.body .main .block6 .block6_2 .rank .table6 tr td {
+  font: normal normal normal 12px "SimHei";
+  height: 25px;
+  border: 1px solid#ccc;
+  padding: 0;
+}
+.body .main .block6 .block6_2 .rank .table6 tr td:nth-of-type(1) {
+  width: 50px;
+  text-align: center;
+}
+.body .main .block6 .block6_2 .rank .table6 tr td:nth-of-type(2) {
+  width: 70px;
+  text-align: center;
+}
+.body .main .block6 .block6_2 .rank .table6 tr td:nth-of-type(3) {
+  width: 270px;
+  padding-left: 30px;
+}
+.body .main .block6 .block6_2 .rank .table6 tr td:nth-of-type(3) .rank_background {
+  background-color: #ccc;
+  width: 180px;
+  height: 4px;
+  float: right;
+  position: relative;
+  right: 20px;
+  top: 3px;
+}
